@@ -1,44 +1,108 @@
-# 异环小精灵
+<p align="center">
+  <img src="docs/wallpapers/anhunqu-afternoon.png" alt="午后的安魂曲：抱着番茄，坐在奶油色窗边" width="960">
+</p>
 
-以《异环》安魂曲为当前角色的 Windows 桌面陪伴程序。角色直接待在桌面上，右击展开悬浮菜单。
+<h1 align="center">异环小精灵</h1>
+<p align="center"><b>「鉴定师，安魂曲在。」</b><br>一只住在 Windows 桌面上的小精灵。聊聊天，摸摸头，也一起安静待一会儿。</p>
+<p align="center">
+  <a href="https://github.com/zhisandesu/yihuan-desktop-pet/releases/latest">下载 Windows 程序</a> ·
+  <a href="docs/画廊.md">壁纸与表情画廊</a> ·
+  <a href="docs/使用前请读.txt">使用说明</a> ·
+  <a href="https://github.com/zhisandesu/yihuan-desktop-pet/issues">反馈问题</a>
+</p>
+<p align="center">Windows 10 / 11 x64 · 63 组动画 · 44 张表情 · 中文 / 日语语音</p>
 
-<p align="center"><img src="docs/anhunqu-avatar.png" alt="安魂曲头像" width="240"></p>
+## 在桌面上，陪你过一小段日常
 
-**[下载 Windows 版本](https://github.com/zhisandesu/yihuan-desktop-pet/releases/latest)** · [使用说明](docs/使用前请读.txt) · [免责与使用声明](NOTICE.txt)
+角色直接待在桌面上。右击她，小翅膀菜单就会展开；聊天、摸摸、专注、手记和设置，都藏在这里。
 
-## 功能
+![桌面角色与右击展开的悬浮菜单](docs/screenshots/desktop-menu.png)
 
-- 桌面角色、拖拽、摸头与悬浮菜单，可在设置中调整角色大小和动作。
-- 63 组动画，包含走路、坐下、睡觉、蝙蝠形态及互动动作；拖拽立即切入抓起／悬挂。
-- 聊天、语音对话、表情触发与可选的主动闲聊，内置 44 张表情图。
-- 中文／日语语音选择，默认中文；日配模式下聊天文字仍默认显示中文。
-- 专注、手记、角色记忆与陪伴设置。
+| 小小的互动 | 自己的节奏 | 有来有回的陪伴 |
+| --- | --- | --- |
+| 摸头、轻点、抓起、放下。拖拽时立即进入抓起／悬挂动作。 | 走路、坐下、打哈欠、趴下睡觉，也会变成小蝙蝠休息。 | 根据聊天和互动生成台词，配合表情与动作；主动闲聊可在设置关闭。 |
 
-## 开始使用
+## 聊一会儿，也可以一起专注
 
-1. 打开 Releases，下载名称含 `Windows-x64.zip` 的程序包。GitHub 自动生成的 Source code 压缩包只是本仓库文档，不是可运行程序。
-2. 完整解压，再双击 `YihuanCompanion.exe`。适用于 Windows 10/11 x64，已包含 .NET 桌面运行环境。
-3. 右击角色打开菜单，在设置中填写自己的 API Key 与可用模型。
-4. v1.0.1 已预置安魂曲中文／日语复刻音色与语音参数，默认中文并开启回复朗读。使用阿里 Token Plan 聊天时，同一份 Key 也用于语音，无需重复填写音色 ID；使用其他聊天服务时，另填阿里 Token Plan 语音 Key。
+<table>
+  <tr>
+    <td align="center"><img src="docs/screenshots/chat.png" alt="奶油色半透明聊天窗与安魂曲表情" width="330"></td>
+    <td align="center"><img src="docs/screenshots/focus.png" alt="番茄风格的专注计时界面" width="360"></td>
+  </tr>
+  <tr>
+    <td><b>文字、语音与表情</b><br>支持文字聊天、麦克风语音对话，以及回复朗读。日配模式下，聊天文字仍默认显示中文。</td>
+    <td><b>留一点自己的时间</b><br>专注计时、心情手记、角色记忆；可以调整角色大小、面板透明度和陪伴节奏。</td>
+  </tr>
+</table>
 
-预置 ID 不会转移云端账号权限：Key 仍须能够访问该复刻音色。跨账号如遇无权限／音色不存在，请在“高级 · 更换复刻音色”中填入该账号的音色 ID；不会改用系统默认声音。可先点“试听当前复刻音色”验证。未承诺任意其他账号的 Key 都可调用预置音色。
+<sub>界面截图使用演示内容。角色台词由模型生成，是本项目二创，非游戏原台词。</sub>
 
-**已有 v1.0.0：** 可下载 Release 中的小型更新补丁，彻底退出程序后解压覆盖原程序目录；首次下载请使用完整包。
+## 今天的表情
 
-未配置 API 时可以使用本地角色、拖拽、菜单与动作。聊天、语音和主动台词需要联网及对应服务。程序未做代码签名；已在本机完成验证，其他设备的兼容性仍需反馈。
+<table>
+  <tr>
+    <td align="center"><img src="docs/stickers/emo-06.png" alt="你说，我在听" width="205"><br>你说，我在听</td>
+    <td align="center"><img src="docs/stickers/emo-09.png" alt="番茄，给我" width="205"><br>番茄，给我</td>
+    <td align="center"><img src="docs/stickers/emo-33.png" alt="早呀" width="205"><br>早呀</td>
+    <td align="center"><img src="docs/stickers/emo-42.png" alt="在干嘛" width="205"><br>在干嘛</td>
+  </tr>
+</table>
 
-## 数据与费用
+程序内置 44 张表情，会在部分对话中触发；画廊精选 8 张，可以打开原图。**[去看看更多表情 →](docs/画廊.md#表情小相册)**
 
-本发布包不含作者的 API Key、个人设置或聊天记录。用户密钥与聊天记录保存在当前 Windows 用户的本机数据目录并使用系统加密。
+## 两种时间，一样的陪伴
 
-联网聊天会向所选服务发送输入、必要上下文与保存的记忆；语音识别会发送录音，朗读会发送待朗读文字。API 费用由使用者自行承担。请勿在 Issue、截图或分享文件中包含密钥和私人对话。
+| 午后的番茄 | 晚安之前 |
+| --- | --- |
+| [![暖色午后桌面壁纸](docs/wallpapers/anhunqu-afternoon.png)](docs/wallpapers/anhunqu-afternoon.png) | [![紫红色夜晚桌面壁纸](docs/wallpapers/anhunqu-night.png)](docs/wallpapers/anhunqu-night.png) |
+| 奶油色日光，给桌面留一点空白。 | 窗外亮起灯，她还坐在这里。 |
+
+点击预览打开原图，再选择 **Download raw file** 保存。两张壁纸为 AI 辅助创作，原图尺寸均为 1672 × 941，接近 16:9；仅供个人本地、非商业自用。
+
+## 把她带到桌面
+
+1. 在 **[最新版本](https://github.com/zhisandesu/yihuan-desktop-pet/releases/latest)** 下载 `YihuanCompanion-1.0.2-Windows-x64.zip`。不要下载 GitHub 自动生成的 Source code 包，那只是仓库文档。
+2. **完整解压**，双击 `YihuanCompanion.exe`。已包含 .NET 桌面运行环境。
+3. 右击角色 → 设置 → 连接与声音，填写自己的 API Key 与可用模型。
+4. 先点“试听当前复刻音色”，再开始聊天。默认中文，默认开启回复朗读。
+
+**已有 v1.0.0 / v1.0.1：** 下载 Release 中的 `YihuanCompanion-Update-to-1.0.2.zip`，彻底退出程序后解压覆盖原程序目录。补丁不能单独运行，也不会替换你的个人 Key 和聊天记录。
+
+**v1.0.2 本次调整：** 修正互动中的第三人称自指，明确以“我／我的”回应触碰；发送后的状态改为“正在等待回复……”，避免误认成角色答复。保留 v1.0.1 的语音启动修复与工具回执过滤。
+
+<details>
+<summary><b>语音怎么配置？填一次 Key 就够吗？</b></summary>
+
+已预置安魂曲中文／日语复刻音色 ID、模型和采样参数。使用阿里 Token Plan 聊天时，语音共用同一份 Key；使用其他聊天服务时，另填阿里 Token Plan 语音 Key。
+
+预置 ID 不会转移云端账号权限：Key 仍须能够访问该复刻音色。跨账号若提示无权限或音色不存在，请在“高级 · 更换复刻音色”中填入该账号的音色 ID。**不会回退到系统默认声音；未承诺任意账号的 Key 都能调用预置音色。**
+
+如果试听正常但聊天没有朗读，检查“回复后实时朗读”和“安静陪伴”开关；状态栏会显示等待、朗读或失败原因。
+
+</details>
+
+<details>
+<summary><b>离线能用什么？数据存在哪里？</b></summary>
+
+未配置 API 时，可以使用本地角色、拖拽、菜单与动作。聊天、语音和主动台词需要联网及对应服务。程序未做代码签名；已在本机验证，其他设备兼容性仍需反馈。
+
+发布包不含作者的 API Key、个人设置或聊天记录。用户密钥与聊天记录保存在当前 Windows 用户的本机数据目录，并使用系统加密。
+
+联网聊天会发送输入、必要上下文与保存的记忆；语音识别会发送录音，朗读会发送待朗读文字。API 费用由使用者自行承担。请勿在 Issue、截图或分享文件中包含密钥和私人对话。
+
+</details>
 
 ## 使用范围与权利说明
 
 个人非营利学习研究作品，仅允许个人本地、非商业自用。本项目与《异环》官方无关联、未获官方授权，相关角色知识产权归原游戏版权方及相应权利人所有。
 
-禁止商用、未经许可转载或二次分发、重新打包发布、修改后再次对外分发。上述限制仅适用于作者有权许可的内容，不改变原游戏权利及第三方组件许可。完整条款见 [免责与使用声明](NOTICE.txt)；第三方许可随程序包提供。
+禁止商用、未经许可转载或二次分发、重新打包发布、修改后再次对外分发。上述限制仅适用于作者有权许可的内容，不改变原游戏权利及第三方组件许可。完整条款见 **[免责与使用声明](NOTICE.txt)**；第三方许可随程序包提供。
 
-此仓库用于程序分发、说明和问题反馈，不提供开源授权。
+此仓库用于程序分发、说明和问题反馈，**不提供开源授权**。壁纸、表情和页面图片同样遵守以上使用范围。
+
+<details>
+<summary>查看完整声明图片</summary>
 
 ![免责与使用声明](docs/disclaimer-landscape.png)
+
+</details>
