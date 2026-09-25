@@ -61,14 +61,14 @@
 
 ## 把她带到桌面
 
-1. 在 **[最新版本](https://github.com/zhisandesu/yihuan-desktop-pet/releases/latest)** 下载 `YihuanCompanion-1.0.2-Windows-x64.zip`。不要下载 GitHub 自动生成的 Source code 包，那只是仓库文档。
+1. 在 **[最新版本](https://github.com/zhisandesu/yihuan-desktop-pet/releases/latest)** 下载 `YihuanCompanion-1.0.3-Windows-x64.zip`。不要下载 GitHub 自动生成的 Source code 包，那只是仓库文档。
 2. **完整解压**，双击 `YihuanCompanion.exe`。已包含 .NET 桌面运行环境。
 3. 右击角色 → 设置 → 连接与声音，填写自己的 API Key 与可用模型。
 4. 先点“试听当前复刻音色”，再开始聊天。默认中文，默认开启回复朗读。
 
-**已有 v1.0.0 / v1.0.1：** 下载 Release 中的 `YihuanCompanion-Update-to-1.0.2.zip`，彻底退出程序后解压覆盖原程序目录。补丁不能单独运行，也不会替换你的个人 Key 和聊天记录。
+**已有 v1.0.0–v1.0.2：** 下载 Release 中的 `YihuanCompanion-Update-to-1.0.3.zip`，彻底退出程序后解压覆盖原程序目录。补丁不能单独运行，也不会替换你的个人 Key 和聊天记录。
 
-**v1.0.2 本次调整：** 修正互动中的第三人称自指，明确以“我／我的”回应触碰；发送后的状态改为“正在等待回复……”，避免误认成角色答复。保留 v1.0.1 的语音启动修复与工具回执过滤。
+**v1.0.3 本次调整：** 自动台词不再反复回顾已回应的拖拽；结合当前动作、睡眠／飞行状态和真实聊天生成。增加低频梦话、飞行自言自语、迟到回复检查与近期台词去重，保留原有语音和互动功能。
 
 <details>
 <summary><b>语音怎么配置？填一次 Key 就够吗？</b></summary>
