@@ -10,7 +10,7 @@
   <a href="docs/使用前请读.txt">使用说明</a> ·
   <a href="https://github.com/zhisandesu/yihuan-desktop-pet/issues">反馈问题</a>
 </p>
-<p align="center">Windows 10 / 11 x64 · 63 组动画 · 44 张表情 · 中文 / 日语语音</p>
+<p align="center">Windows 10 / 11 x64 · 68 组动画 · 44 张表情 · 中文 / 日语语音</p>
 
 ## 在桌面上，陪你过一小段日常
 
@@ -61,14 +61,16 @@
 
 ## 把她带到桌面
 
-1. 在 **[最新版本](https://github.com/zhisandesu/yihuan-desktop-pet/releases/latest)** 下载 `YihuanCompanion-1.0.3-Windows-x64.zip`。不要下载 GitHub 自动生成的 Source code 包，那只是仓库文档。
+1. 在 **[最新版本](https://github.com/zhisandesu/yihuan-desktop-pet/releases/latest)** 下载 `YihuanCompanion-1.0.7.2-Windows-x64.zip`。不要下载 GitHub 自动生成的 Source code 包，那只是仓库文档。
 2. **完整解压**，双击 `YihuanCompanion.exe`。已包含 .NET 桌面运行环境。
 3. 右击角色 → 设置 → 连接与声音，填写自己的 API Key 与可用模型。
 4. 先点“试听当前复刻音色”，再开始聊天。默认中文，默认开启回复朗读。
 
-**已有 v1.0.0–v1.0.2：** 下载 Release 中的 `YihuanCompanion-Update-to-1.0.3.zip`，彻底退出程序后解压覆盖原程序目录。补丁不能单独运行，也不会替换你的个人 Key 和聊天记录。
+**已有旧版：** 下载 Release 中的 `YihuanCompanion-Update-to-1.0.7.2.zip`，彻底退出程序后解压覆盖原程序目录。适用于 v1.0.0–v1.0.3 完整包和本地 1.0.4–1.0.7.1；补丁不能单独运行，也不会替换你的个人 Key、设置和聊天记录。
 
-**v1.0.3 本次调整：** 自动台词不再反复回顾已回应的拖拽；结合当前动作、睡眠／飞行状态和真实聊天生成。增加低频梦话、飞行自言自语、迟到回复检查与近期台词去重，保留原有语音和互动功能。
+**v1.0.7.2 本次调整：** 聊天结合语境执行动作，加入番茄小游戏与屏边探头；修复朗读结束后的状态显示，恢复句首“唔、嗯”等语气词。首次出声等待缩短，保留原语速与音色。详见 **[完整更新说明](docs/releases/v1.0.7.2.md)**。
+
+语音偶尔音高或语速变化、名字停连仍可能出现，本版未宣称彻底修复。
 
 <details>
 <summary><b>语音怎么配置？填一次 Key 就够吗？</b></summary>
